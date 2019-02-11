@@ -1,3 +1,25 @@
+html, body{
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+}
+
 .navbar-brand img{
     height: 80px;    
+}
+.home {
+    background-color: rgb(0, 132, 255);
+    height: 100vh;
+    font-size: 35px;
+   }
+.home img{
+    height: 100px;
+    width: 100px;  
+    
+}
+.home button{
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 10px;
 }

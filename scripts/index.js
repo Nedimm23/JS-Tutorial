@@ -1,0 +1,3 @@
+function alertOnClick(){
+    window.location.href="./pages/login.html"
+}
