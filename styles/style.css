@@ -8,9 +8,13 @@ html, body{
     height: 80px;    
 }
 .home {
-    background-color: rgb(0, 132, 255);
+    background-image: url("../assets/notebook-pen-table-blank-158771.jpeg");
+    font-size: 30px;
+    color: darkslategrey;
     height: 100vh;
-    font-size: 35px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
    }
 .home img{
     height: 100px;
