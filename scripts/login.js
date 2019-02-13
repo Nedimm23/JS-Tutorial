@@ -1,7 +1,12 @@
 
 function alertOnClick(){
-    window.location.href="file:///C:/Users/Mihra_Minja/Desktop/vje%C5%BEba/JS-Tutorial/index.html#"
+    window.location.href="../index.html"
 }
+
+function redirectOnRegister(){
+    window.location.href="../pages/register.html"
+}
+
 const facebook = document.getElementById('facebook');
 const loginBtn = document.getElementById("login");
 const username = document.getElementById("username");
@@ -11,8 +16,11 @@ function getSiteName (sitename) {
 }
 
 facebook.addEventListener('click', () => getSiteName("facebook"))
+twitter.addEventListener('click', () => getSiteName("twitter"))
+google.addEventListener('click', () => getSiteName("google"))
 
 loginBtn.addEventListener("click" , function(){
+    console.log(users)
 if (username.value === "") {
     alert ('please enter username'); 
     return;
