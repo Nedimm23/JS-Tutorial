@@ -48,7 +48,7 @@ registerBtn.addEventListener("click" , function(){
         alert ('passwords do not match')
         return;
     }
-
+    
     
     const newUser = {
         username: username.value,
