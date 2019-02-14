@@ -49,6 +49,7 @@ registerBtn.addEventListener("click" , function(){
         return;
     }
 
+    
     const newUser = {
         username: username.value,
         email: email.value,
